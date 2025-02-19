@@ -1,0 +1,24 @@
+@import url('https://fonts.cdnfonts.com/css/gt-america-trial?styles=146365');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-primary;
+}
+
+@layer components {
+    .nav {
+        box-shadow: 0 15px 15px rgba(0, 0, 0, 0.10);
+        backdrop-filter: blur(14.4px);
+        -webkit-backdrop-filter: blur(14.4px);
+        border: 2px solid rgba(233, 233, 233, 0.471);
+    }
+
+    .zoom {
+        transform: scale(1.02);
+        box-shadow: 0 6px 12px rgba(71, 71, 71, 0.15); 
+    }
+}
