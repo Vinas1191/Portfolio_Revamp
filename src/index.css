@@ -9,6 +9,25 @@ body {
   @apply font-primary;
 }
 
+@layer utilities {
+    @keyframes appear {
+        from {
+        opacity: 0;
+        transform: translateY(120px);
+        }
+        to {
+        opacity: 1;
+        transform: translateY(0);
+        }
+    }
+
+    .animate-appear {
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 50%;
+    }
+}
+
 @layer components {
     .nav {
         box-shadow: 0 15px 15px rgba(0, 0, 0, 0.10);

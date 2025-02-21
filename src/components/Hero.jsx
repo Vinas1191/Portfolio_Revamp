@@ -3,7 +3,8 @@ import avatar from '../assets/port1.png'
 
 const Hero = () => {
   return (
-    <div className="w-full flex justify-center mt-[170px] flex-col items-center">
+    <div className="w-full flex justify-center mt-[170px] flex-col items-center
+    motion-translate-x-in-[0%] motion-translate-y-in-[50%] motion-opacity-in-[0%] motion-duration-[2.00s] motion-ease-out-cubic">
     <div className="flex justify-center flex-col text-center items-center">
       <p className="font-secondary font-bold text-[3.5em] leading-[110%] lg:text-[5em]">
         Vinas Mavani
