@@ -100,7 +100,7 @@ const Navbar = () => {
                     className="block rounded-md pl-2 py-2 text-lg font-medium hover:bg-gray-200"
                     href="#get_in_touch"
                 >
-                    Get in touch
+                    Get in touch me
                 </a>
                 </li>
             </ul>
