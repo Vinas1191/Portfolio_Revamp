@@ -9,6 +9,18 @@ body {
   @apply font-primary;
 }
 
+html {
+    scroll-behavior: smooth;
+}  
+
+.title {
+  @apply max-sm:text-[22px];
+}
+
+.sub-heading {
+    @apply max-sm:text-[32px];
+}
+
 @layer utilities {
     @keyframes appear {
         from {

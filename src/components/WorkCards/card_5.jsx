@@ -6,13 +6,13 @@ import screens from '../../assets/Group 2650164.png'
 const card_5 = () => {
   return (
     // My commune UI-KIT 
-    <div className="w-auto bg-[#D4ECDD] text-[#112031] flex flex-wrap items-center rounded-[30px] cursor-pointer pt-[100px] pb-[40px] px-[40px] mb-5 transition transform 0.3s ease-in-out hover:zoom">
+    <div className="w-auto bg-[#D4ECDD] text-[#112031] flex flex-wrap items-center rounded-[30px] cursor-pointer pt-[100px] pb-[40px] px-[40px] max-sm:py-10 max-sm:px-3 max-sm:m-2 mb-5 transition transform 0.3s ease-in-out hover:zoom">
       <div className="w-auto flex flex-wrap">
         <div className="lg:w-2/3 flex flex-col lg:pl-[60px] max-md:items-center">
-          <h2 className="font-secondary text-[#261C4E] font-bold text-[32px] my-[30px]">
+          <h2 className="font-secondary text-[#261C4E] font-bold text-[32px] my-[30px] title">
             My Commune App
           </h2>
-          <p className="font-secondary text-[#261C4E] font-bold text-[50px] lg:text-[68px] max-md:text-center leading-[112%] mb-[40px]">
+          <p className="font-secondary text-[#261C4E] font-bold text-[50px] lg:text-[68px] max-md:text-center leading-[112%] mb-[40px] sub-heading">
             An interface that allows neighbours to connect
           </p>
           <p className="text-lg text-[#261C4E] max-md:hidden">
@@ -25,7 +25,7 @@ const card_5 = () => {
           <img className="w-full" src={MyCommune} alt="" />
         </div>
       </div>
-      <div className="flex w-[100%] p-10 rounded-[20px] bg-[#C0D8CC] justify-between max-sm:justify-center">
+      <div className="flex w-[100%] p-10 rounded-[20px] bg-[#C0D8CC] max-sm:bg-[#D4ECDD] max-sm:p-0  justify-between max-sm:justify-center">
         <div className="flex justify-center gap-4 max-sm:hidden">
           <img
             className="w-[50px] object-contain"
@@ -58,7 +58,9 @@ const card_5 = () => {
             <p className="text-xs">light &amp; dark mode</p>
           </div>
         </div>
-        <div className="bg-[#112031] text-white flex items-center px-10 py-5 rounded-full gap-2">
+        <div className="bg-[#112031] text-white flex items-center px-10 py-5 max-sm:px-24 rounded-full gap-2"
+          onClick={() => window.open('https://heliotrope-peak-106.notion.site/My-Commune-A-Community-App-87793e3e799e4d0097a7db382d40a45e?pvs=4', '_blank')}
+        >
           <p className="text-base font-normal font-secondary">Case Study</p>
           <img
             className="w-7"

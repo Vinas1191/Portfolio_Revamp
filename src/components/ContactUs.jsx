@@ -40,17 +40,17 @@ const ContactUs = () => {
         <img className="w-[62px]" src={Dribble} alt="" />
       </a>
     </div>
-    <p className="font-secondary text-[30px] lg:text-[34px] font-extrabold lg:pt-[10px]">
-      Have something in mind? <br /> Let’s connect!
+    <p className="font-secondary text-[24px] lg:text-[34px] font-extrabold lg:pt-[10px]">
+      Have something in mind? <br className='max-lg:hidden'/> Let’s connect!
     </p>
-    <div className="w-full flex flex-col flex-wrap items-center pt-12 pb-[200px]">
+    <div className="w-full flex flex-col flex-wrap items-center pt-12 pb-[200px] max-lg:pb-12">
       <div className="w-auto flex md:flex-row flex-col justify-center gap-4">
         <div className="flex flex-col flex-wrap items-start">
           <label className="text-lg mb-[6px]" htmlFor="text">
             Name
           </label>
           <input
-            className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[30px] pr-[150px]"
+            className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[30px] pr-[100px]"
             type="text"
             placeholder="Enter your name"
             required=""
@@ -61,7 +61,7 @@ const ContactUs = () => {
             Email
           </label>
           <input
-            className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[100px] pr-[150px]"
+            className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[100px] pr-[100px]"
             type="email"
             placeholder="Enter your email"
             required=""
@@ -73,7 +73,7 @@ const ContactUs = () => {
           Message
         </label>
         <textarea
-          className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[352px] pr-[150px]"
+          className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[352px] pr-[100px]"
           rows={5}
           type="email"
           placeholder="Enter your message"
