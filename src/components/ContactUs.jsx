@@ -50,7 +50,7 @@ const ContactUs = () => {
             Name
           </label>
           <input
-            className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[30px] pr-[100px]"
+            className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[30px] pr-[60px]"
             type="text"
             placeholder="Enter your name"
             required=""
@@ -61,7 +61,7 @@ const ContactUs = () => {
             Email
           </label>
           <input
-            className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[100px] pr-[100px]"
+            className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[100px] pr-[60px]"
             type="email"
             placeholder="Enter your email"
             required=""
@@ -73,7 +73,7 @@ const ContactUs = () => {
           Message
         </label>
         <textarea
-          className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[352px] pr-[100px]"
+          className="border-[1px] border-[#e0e0e0] text-lg font-light rounded-xl p-[18px] lg:pr-[352px] pr-[60px]"
           rows={5}
           type="email"
           placeholder="Enter your message"

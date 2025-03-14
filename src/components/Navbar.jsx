@@ -10,8 +10,8 @@ const Navbar = () => {
     };
 
     return (
-        <div className="w-full flex lg:justify-center mt-5 max-md:ml-5">
-            <nav className="w-auto bg-white rounded-full flex lg:justify-center font-medium nav fixed z-50 transition-all duration-300 ease-in-out">
+        <div className="w-full flex lg:justify-center max-md:ml-5">
+            <nav className="w-auto bg-white rounded-full flex lg:justify-center font-medium nav fixed top-4 z-50 transition-all duration-300 ease-in-out">
                 {/* Mobile Menu Toggle Button */}
                 <button
                     onClick={toggleMobileMenu}
