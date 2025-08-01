@@ -4,7 +4,7 @@ import itSplit from '../../assets/itsplit.png'
 const card_2 = () => {
   return (
     // It-split app ui design
-    <div className="w-auto bg-[#181A20] flex flex-col flex-wrap items-center rounded-[30px] cursor-pointer px-[40px] pt-[40px] max-sm:px-6 max-sm:m-2 mb-5 transition transform 0.3s ease-in-out hover:zoom">
+    <div className="w-auto bg-[#181A20] flex flex-col flex-wrap items-center rounded-[30px] overflow-hidden cursor-pointer px-[40px] pt-[40px] max-sm:px-6 max-sm:m-2 mb-5 transition transform 0.3s ease-in-out hover:zoom">
       <div className="flex flex-col text-center">
         <h2 className="font-secondary text-white font-bold text-[30px] my-[30px] title">
           Side Project

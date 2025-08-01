@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/gt-america-trial?styles=146365');
+@import url('https://fonts.cdnfonts.com/css/gt-america-trial?styles=146370');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @tailwind base;
@@ -19,8 +19,25 @@ html {
     scroll-behavior: smooth;
 }  
 
+@layer utilities {
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.98);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .animate-fadeIn {
+    animation: fadeIn 0.4s ease-out forwards;
+  }
+}
+
 .title {
-  @apply max-sm:text-[22px];
+  @apply max-sm:text-[20px];
 }
 
 .sub-heading {

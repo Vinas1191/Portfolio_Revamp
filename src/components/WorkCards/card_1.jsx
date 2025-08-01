@@ -6,7 +6,7 @@ import ProjectShowcase from '../../assets/mechanic mate.png';
 const card_1 = () => {
   return (
     //  mechanic mate app re-design
-    <div className="w-auto bg-secondary-100 flex flex-col flex-wrap items-center rounded-[30px] cursor-pointer border-[1px] border-gray-100 p-[40px] max-sm:py-10 max-sm:px-3 max-sm:m-2  mb-5 transition transform 0.3s ease-in-out hover:zoom">
+    <div className="w-auto bg-secondary-100 flex flex-col flex-wrap items-center rounded-[30px] overflow-hidden cursor-pointer border-[1px] border-gray-100 p-[40px] max-sm:py-10 max-sm:px-3 max-sm:m-2  mb-5 transition transform 0.3s ease-in-out hover:zoom">
       <div className="flex flex-col text-center">
         <h2 className="font-secondary font-bold text-[30px] my-[30px] title">
           Mechanic Mate

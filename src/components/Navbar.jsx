@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div className="w-full flex lg:justify-center max-md:ml-5">
-            <nav className="w-auto bg-white rounded-full flex lg:justify-center font-medium nav fixed top-4 z-50 transition-all duration-300 ease-in-out">
+            <nav className="w-auto rounded-full flex lg:justify-center font-medium nav fixed top-4 z-50 transition-all duration-300 ease-in-out bg-white/40 backdrop-blur-custom shadow-glass border border-white/40 ">
                 {/* Mobile Menu Toggle Button */}
                 <button
                     onClick={toggleMobileMenu}
@@ -44,17 +44,17 @@ const Navbar = () => {
                 </button>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex p-[26px] items-center">
+                <ul className="hidden md:flex p-[26px] items-center ">
                     <li className="flex items-center mx-[20px]">
                         <img className="w-[24px] mr-2" src={logo} alt="Logo" />
                         <a href="#vinas">Vinas Mavani</a>
                     </li>
-                    <li className="mx-5"><a href="#Highlights">Highlights</a></li>
+                    <li className="mx-5"><a href="#Highlights">About</a></li>
                     <li className="mx-5"><a href="#Work">Work</a></li>
+                    <li className="mx-5"><a href="#get_in_touch">Contact</a></li>
                     <li className="mx-5">
                         <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
                     </li>
-                    <li className="mx-5"><a href="#get_in_touch">Get in touch</a></li>
                 </ul>
 
                 {/* Mobile Menu */}
@@ -67,7 +67,7 @@ const Navbar = () => {
                     <ul className="space-y-2">
                         <li>
                             <a className="block rounded-md pl-2 pr-[200px] py-2 text-lg font-medium hover:bg-gray-200" href="#Highlights">
-                                Highlights
+                                About
                             </a>
                         </li>
                         <li>
@@ -76,13 +76,13 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li>
-                            <a className="block rounded-md pl-2 pr-[200px] py-2 text-lg font-medium hover:bg-gray-200" href={resume} target="_blank" rel="noopener noreferrer">
-                                Resume
+                            <a className="block rounded-md pl-2 py-2 text-lg font-medium hover:bg-gray-200" href="#get_in_touch">
+                                Contact
                             </a>
                         </li>
                         <li>
-                            <a className="block rounded-md pl-2 py-2 text-lg font-medium hover:bg-gray-200" href="#get_in_touch">
-                                Get in touch
+                            <a className="block rounded-md pl-2 pr-[200px] py-2 text-lg font-medium hover:bg-gray-200" href={resume} target="_blank" rel="noopener noreferrer">
+                                Resume
                             </a>
                         </li>
                     </ul>

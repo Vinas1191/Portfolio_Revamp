@@ -7,7 +7,7 @@ import Recipely from '../../assets/recipelyprok.png'
 const card_3 = () => {
   return (
     //  Recipely Project  
-    <div className="w-auto bg-[#FFE7CE] flex flex-col flex-wrap items-center rounded-[30px] cursor-pointer border-[1px] border-gray-100 p-[40px] max-sm:py-10 max-sm:px-3 max-sm:m-2 mb-5 transition transform 0.3s ease-in-out hover:zoom">
+    <div className="w-auto bg-[#FFE7CE] flex flex-col flex-wrap items-center rounded-[30px] overflow-hidden cursor-pointer border-[1px] border-gray-100 p-[40px] max-sm:py-10 max-sm:px-3 max-sm:m-2 mb-5 transition transform 0.3s ease-in-out hover:zoom">
       <div className="flex flex-col text-center mb-11">
       <h2 className="font-secondary text-[#261C4E] font-bold text-[30px] my-[30px] title">
           Recipely, <br className='lg:hidden'/> be a pro cook!!

@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        glass: '0 4px 30px rgba(0, 0, 0, 0.1)',
+      },
+      backdropBlur: {
+        custom: '5.3px',
+      },
       colors: {
       primary: '#1E1E1E',
       secondary: {
@@ -17,7 +23,8 @@ export default {
     },
     fontFamily: {
       primary: ['Montserrat', 'sans-serif'],
-      secondary: ['GT America Trial', 'sans-serif'],
+      secondary: ['GT America Trial Ext Bd', 'sans-serif'],
+      tertiary: ['GT America Trial Ext Md', 'sans-serif'],
     }
     },
   },

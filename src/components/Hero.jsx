@@ -17,7 +17,7 @@ const Hero = () => {
         Designing intuitive, user-first digital journeys.
       </p>
     </div>
-    <img className="lg:w-[650px] max-md:mb-[-32px] max-md:z-[-1] mt-[80px] grayscale" src={avatar} alt=""/>
+    <img className="lg:w-[650px] max-md:mb-[-1px] max-md:z-[-1] mt-[80px] grayscale" src={avatar} alt=""/>
   </div>
   )
 }

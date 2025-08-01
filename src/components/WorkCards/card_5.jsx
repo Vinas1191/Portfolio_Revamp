@@ -6,7 +6,7 @@ import screens from '../../assets/Group 2650164.png'
 const card_5 = () => {
   return (
     // My commune UI-KIT 
-    <div className="w-auto bg-[#D4ECDD] text-[#112031] flex flex-wrap items-center rounded-[30px] cursor-pointer pt-[100px] pb-[40px] px-[40px] max-sm:py-10 max-sm:px-3 max-sm:m-2 mb-5 transition transform 0.3s ease-in-out hover:zoom">
+    <div className="w-auto bg-[#D4ECDD] text-[#112031] flex flex-wrap items-center rounded-[30px] overflow-hidden cursor-pointer pt-[100px] pb-[40px] px-[40px] max-sm:py-10 max-sm:px-3 max-sm:m-2 mb-5 transition transform 0.3s ease-in-out hover:zoom">
       <div className="w-auto flex flex-wrap">
         <div className="lg:w-2/3 flex flex-col lg:pl-[60px] max-md:items-center">
           <h2 className="font-secondary text-[#261C4E] font-bold text-[32px] my-[30px] title">

@@ -1,12 +1,13 @@
 import React from 'react'
 import SiteImg from '../../assets/design agency site.png'
 import AppImg from '../../assets/Diamondapp.png'
+import lock from '../../assets/lock.png'
 
 const card_67 = () => {
   return (
     //college projects
     <div className="w-full flex max-md:flex-col lg:space-x-5">
-      <div className="lg:w-1/2 bg-white flex flex-col flex-wrap items-center rounded-[30px] cursor-pointer transition transform 0.3s ease-in-out hover:zoom px-8 pt-10 max-sm:pt-10 max-sm:px-3 max-sm:m-2">
+      <div className="lg:w-1/2 bg-white flex flex-col flex-wrap items-center rounded-[30px] overflow-hidden cursor-pointer transition transform 0.3s ease-in-out hover:zoom px-8 pt-10 max-sm:pt-10 max-sm:px-3 max-sm:m-2">
         <div className="flex flex-col text-center">
           <h2 className="font-primary text-black text-[24px] my-[20px]">
             Service page
@@ -24,11 +25,11 @@ const card_67 = () => {
         </div>
         <div className="bg-black text-white flex items-center mt-12 px-10 py-5  rounded-full gap-2">
           <p className="text-base font-normal font-secondary">Coming Soon</p>
-          {/* <img
-            className="w-7"
-            src="https://cdn.prod.website-files.com/61e45677f3f6b3e9bf77d423/637b6ee0e3a0df6586006721_arrow.svg"
+          <img
+            className="w-5"
+            src={lock}
             alt=""
-          /> */}
+          />
         </div>
         <img
           className="w-full mt-10"
@@ -52,11 +53,11 @@ const card_67 = () => {
         </div>
         <div className="bg-[#1E212A] text-white flex items-center mt-12 px-10 py-5 rounded-full gap-2">
           <p className="text-base font-normal font-secondary">Coming Soon</p>
-          {/* <img
-            className="w-7"
-            src="https://cdn.prod.website-files.com/61e45677f3f6b3e9bf77d423/637b6ee0e3a0df6586006721_arrow.svg"
+          <img
+            className="w-5"
+            src={lock}
             alt=""
-          /> */}
+          />
         </div>
         <img className="w-full mt-10" src={AppImg} alt="" />
       </div>

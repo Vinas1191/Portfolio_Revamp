@@ -7,7 +7,7 @@ import dione from '../../assets/dione.png'
 const card_4 = () => {
   return (
     // Fifa Project 
-    <div className="w-auto bg-secondary-100 text-[#1E232D] flex flex-wrap items-center rounded-[30px] cursor-pointer pt-[100px] pb-[40px] px-[40px] max-sm:py-10 max-sm:px-3 max-sm:m-2 mb-5 transition transform 0.3s ease-in-out hover:zoom">
+    <div className="w-auto bg-secondary-100 text-[#1E232D] flex flex-wrap items-center rounded-[30px] overflow-hidden cursor-pointer pt-[100px] pb-[40px] px-[40px] max-sm:py-10 max-sm:px-3 max-sm:m-2 mb-5 transition transform 0.3s ease-in-out hover:zoom">
       <div className="w-auto flex flex-wrap">
         <div className="lg:w-1/3 px-10 pb-10">
           <img className="w-full" src={fifa} alt="" />
