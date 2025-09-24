@@ -125,7 +125,7 @@ const HeadFirstCaseStudy = () => {
           <h2 className="font-secondary text-2xl md:text-3xl font-bold text-black mb-6">Conversation with the founder</h2>
 
           <p className="text-gray-700 leading-relaxed mb-6">
-          When I joined, the Head First team had already completed user research and developed rough wireframes for their MVP. My responsibility was to transform these concepts into a developer-ready, high-fidelity product design that prioritized usability, accessibility, and technical feasibility. As the design objectives were:
+          In my conversation with the founder, I got to know that the team had already completed user research and created rough wireframes for their MVP. My role was to evolve these early concepts into a developer-ready, high-fidelity product design that emphasized usability, accessibility, and technical feasibility. The key design objectives were:
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6">
