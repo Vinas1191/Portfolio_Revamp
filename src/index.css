@@ -41,7 +41,7 @@ html {
 }
 
 .sub-heading {
-    @apply max-sm:text-[32px];
+    @apply max-sm:text-[28px] leading-[112%];
 }
 
 @layer utilities {
@@ -75,4 +75,8 @@ html {
         transform: scale(1.02);
         box-shadow: 0 6px 12px rgba(71, 71, 71, 0.15); 
     }
+
+    .cards > * {
+    grid-area: 1 / 1 / 2 / 2;
+}
 }

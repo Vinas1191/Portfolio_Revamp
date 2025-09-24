@@ -4,7 +4,8 @@ import Card9 from './WorkCards/card_9'
 import Card10 from './WorkCards/card_10'
 import Card11 from './WorkCards/card_11'
 import Card12 from './WorkCards/card_12'
-import Card67 from './WorkCards/card_67'
+import Card67 from './WorkCards/card_67'  
+
 
 const Work = () => {
   return (

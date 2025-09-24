@@ -6,6 +6,22 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        gradient: 'gradientBG 15s ease infinite',
+      },
+      keyframes: {
+        gradientBG: {
+          '0%, 100%': {
+            'background-position': '0% 50%',
+          },
+          '50%': {
+            'background-position': '100% 50%',
+          },
+        },
+      },
+      backgroundSize: {
+        '200': '200% 200%',
+      },
       boxShadow: {
         glass: '0 4px 30px rgba(0, 0, 0, 0.1)',
       },

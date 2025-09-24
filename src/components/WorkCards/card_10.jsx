@@ -1,32 +1,33 @@
 import React from 'react'
 import screens from '../../assets/mmscreen.png'
 import arrow from '../../assets/Right Arrow.png'
+import lock from '../../assets/lock.png'
 
 const card_10 = () => {
   return (
     // Mechanic Mate - product revamp
-    <div className="w-auto h-4/5 bg-[#4EBBEC] text-[#112031] flex flex-wrap items-center rounded-[30px] overflow-hidden cursor-pointer pt-[80px] px-[80px] max-sm:py-10 max-sm:px-3 max-sm:m-2 mb-5 transition transform 0.3s ease-in-out hover:zoom">
+    <div className="w-auto h-4/5 bg-[#4EBBEC] text-[#112031] flex flex-wrap items-center rounded-[30px] overflow-hidden cursor-pointer pt-[80px] px-[80px] max-sm:pt-8 max-sm:px-3 max-sm:m-2 mb-5 transition transform 0.3s ease-in-out hover:zoom">
       <div className="w-auto flex flex-wrap">
-        <div className="lg:w-3/5 flex flex-col justify-between pb-[80px] max-md:items-center">
+        <div className="lg:w-3/5 flex flex-col justify-between pb-[55px] lg:pb-[80px] max-lg:items-center">
           <div>
-          <h2 className="font-secondary text-[#ffffff] text-[30px] my-[30px] title">
-            Mechanic Mate - product revamp
+          <h2 className="font-secondary max-md:text-center text-[#ffffff] text-[30px] my-[30px] title">
+            Mechanic Mate
           </h2>
 
-          <p className="font-secondary text-[#ffffff] font-bold text-[50px] lg:text-[46px] max-md:text-center leading-[112%] mb-[40px] sub-heading">
-            Redesigned app with existing features and increased usability
+          <p className="font-secondary text-[#ffffff] font-bold text-[50px] lg:text-[46px] max-md:text-center  mb-[40px] sub-heading">
+            App Redesign to Improve Usability
           </p>
           </div>
 
-          <div className="bg-[#111111] text-white flex flex-end w-fit items-center px-8 py-4 max-sm:px-24 rounded-full gap-3"
-          onClick={() => window.open('https://heliotrope-peak-106.notion.site/My-Commune-A-Community-App-87793e3e799e4d0097a7db382d40a45e?pvs=4', '_blank')}
+          <div className="bg-[#111111] text-white flex flex-end w-fit items-center px-8 py-4 max-sm:px-10 rounded-full gap-3"
+          onClick={() => window.open('/', '_blank')}
             >
-                <p className="text-base font-normal font-tertiary">Case Study</p>
-                <img
-                    className="w-8"
-                    src={arrow}
-                    alt=""
-                />
+              <p className="text-base font-normal font-tertiary">Coming soon</p>
+              <img
+                className="w-5"
+                src={lock}
+                alt=""
+              />
          </div>
 
         </div>

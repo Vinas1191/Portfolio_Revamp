@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { useLocation, Link } from 'react-router-dom';
 import logo from '../assets/vm_logo.png';
 import resume from '../assets/Resume.pdf';
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const location = useLocation();
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -43,11 +45,12 @@ const Navbar = () => {
                     </svg>
                 </button>
 
+
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex p-[26px] items-center ">
                     <li className="flex items-center mx-[20px]">
                         <img className="w-[24px] mr-2" src={logo} alt="Logo" />
-                        <a href="#vinas">Vinas Mavani</a>
+                        <a href="/">Vinas Mavani</a>
                     </li>
                     <li className="mx-5"><a href="#Highlights">About</a></li>
                     <li className="mx-5"><a href="#Work">Work</a></li>
@@ -65,6 +68,17 @@ const Navbar = () => {
                     }`}
                 >
                     <ul className="space-y-2">
+                        {location.pathname !== '/' && (
+                            <li>
+                                <Link
+                                    to="/"
+                                    className="block rounded-md pl-2 pr-[100px] py-2 text-lg font-medium hover:bg-gray-200"
+                                    onClick={() => setIsMobileMenuOpen(false)}
+                                >
+                                   ← Back to Home
+                                </Link>
+                            </li>
+                        )}
                         <li>
                             <a className="block rounded-md pl-2 pr-[200px] py-2 text-lg font-medium hover:bg-gray-200" href="#Highlights">
                                 About

@@ -1,24 +1,27 @@
 import React, { useState } from 'react';
 import quoteIcon from '../assets/quote.png'; // your local quote image
+import lauren from '../assets/lauren.jpeg';
+import krishnil from '../assets/krishnil.jpeg'
+import jaydeep from '../assets/jd.jpeg'
 
 const testimonials = [
   {
     name: "Lauren Mackay",
     title: "Founder @Head First",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: lauren,
     text: "Vinas demonstrated exceptional strength in UI/UX design and frontend development, consistently delivering high-quality, thoughtful work. Proactive and reliable, he skillfully transformed design concepts into polished, functional interfaces. I would highly recommend Vinas to any team seeking a talented and dedicated designer-developer hybrid. He would be a valuable asset to any organization."
   },
   {
-    name: "Mark Jensen",
-    title: "CTO @Creative Labs",
-    image: "https://images.unsplash.com/photo-1654110455429-cf322b40a906?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Krishnil Bhojani",
+    title: "Founder & CEO @Omega Orion",
+    image: krishnil,
     text: "Vinas is a game changer! His ability to blend beautiful design with functional code is unmatched. His work ethic and attention to detail make him stand out in any project."
   },
   {
-    name: "Sophie Lee",
-    title: "Product Lead @Nova",
-    image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    text: "Creative, dependable, and truly skilled at bringing ideas to life — Vinas was a key contributor to our product success. Highly recommend working with him!"
+    name: "Jaydip Godhani",
+    title: "CEO @Dione Apps",
+    image: jaydeep,
+    text: "Creative, dependable, and truly skilled at bringing ideas to life - Vinas was a key contributor to our product success. Highly recommend working with him!"
   }
 ];
 
